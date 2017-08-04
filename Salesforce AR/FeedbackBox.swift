@@ -11,8 +11,13 @@ import ARKit
 
 class FeedbackBox : UIViewController{
     
-    func startUp() ->String{
-        return ("Hi")
+    func welcome() ->String{
+        return " Welcome to Salesforce AR!"
     }
-    
+    func mascotSelect() ->String {
+        return "Select your favorite mascot"
+    }
+    func unsupportedMascot() ->String{
+        return "For the scope of the project, please select Codey"
+    }
 }
