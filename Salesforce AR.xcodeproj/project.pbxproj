@@ -15,6 +15,7 @@
 		EE6587B11F346126001FE15C /* Mascots.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6587B01F346126001FE15C /* Mascots.swift */; };
 		EE6587B31F34613B001FE15C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6587B21F34613B001FE15C /* art.scnassets */; };
 		EE6587B51F3468B7001FE15C /* salesforce.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6587B41F3468B7001FE15C /* salesforce.png */; };
+		EE6587BD1F3496A1001FE15C /* FeedbackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6587BC1F3496A1001FE15C /* FeedbackBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EE6587B01F346126001FE15C /* Mascots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mascots.swift; path = "../../Files saved/Salesforce AR/Mascots.swift"; sourceTree = "<group>"; };
 		EE6587B21F34613B001FE15C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = "../../Files saved/Salesforce AR/art.scnassets"; sourceTree = "<group>"; };
 		EE6587B41F3468B7001FE15C /* salesforce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salesforce.png; sourceTree = "<group>"; };
+		EE6587BC1F3496A1001FE15C /* FeedbackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				EE65879B1F346024001FE15C /* AppDelegate.swift */,
 				EE65879D1F346024001FE15C /* ViewController.swift */,
+				EE6587BC1F3496A1001FE15C /* FeedbackBox.swift */,
 				EE6587B21F34613B001FE15C /* art.scnassets */,
 				EE6587B01F346126001FE15C /* Mascots.swift */,
 				EE6587B41F3468B7001FE15C /* salesforce.png */,
@@ -148,6 +151,7 @@
 			files = (
 				EE65879E1F346024001FE15C /* ViewController.swift in Sources */,
 				EE6587B11F346126001FE15C /* Mascots.swift in Sources */,
+				EE6587BD1F3496A1001FE15C /* FeedbackBox.swift in Sources */,
 				EE65879C1F346024001FE15C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
