@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EE41143C070A24405985EF5 /* Pods_Salesforce_AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47939FBB3D0778B117BC2765 /* Pods_Salesforce_AR.framework */; };
 		EE65879C1F346024001FE15C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65879B1F346024001FE15C /* AppDelegate.swift */; };
 		EE65879E1F346024001FE15C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65879D1F346024001FE15C /* ViewController.swift */; };
 		EE6587A31F346024001FE15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6587A21F346024001FE15C /* Assets.xcassets */; };
@@ -16,9 +17,13 @@
 		EE6587B31F34613B001FE15C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6587B21F34613B001FE15C /* art.scnassets */; };
 		EE6587B51F3468B7001FE15C /* salesforce.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6587B41F3468B7001FE15C /* salesforce.png */; };
 		EE6587BD1F3496A1001FE15C /* FeedbackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6587BC1F3496A1001FE15C /* FeedbackBox.swift */; };
+		EE839C221F358F8D00F3374D /* salesforceEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = EE839C211F358F8D00F3374D /* salesforceEmpty.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		214A400647DC8087DBE083C4 /* Pods-Salesforce AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesforce AR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Salesforce AR/Pods-Salesforce AR.release.xcconfig"; sourceTree = "<group>"; };
+		47939FBB3D0778B117BC2765 /* Pods_Salesforce_AR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salesforce_AR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A13EDF27236EF061B1E487B /* Pods-Salesforce AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salesforce AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Salesforce AR/Pods-Salesforce AR.debug.xcconfig"; sourceTree = "<group>"; };
 		EE6587981F346024001FE15C /* Salesforce AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salesforce AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE65879B1F346024001FE15C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE65879D1F346024001FE15C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +35,7 @@
 		EE6587B21F34613B001FE15C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = "../../Files saved/Salesforce AR/art.scnassets"; sourceTree = "<group>"; };
 		EE6587B41F3468B7001FE15C /* salesforce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salesforce.png; sourceTree = "<group>"; };
 		EE6587BC1F3496A1001FE15C /* FeedbackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackBox.swift; sourceTree = "<group>"; };
+		EE839C211F358F8D00F3374D /* salesforceEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salesforceEmpty.png; path = ../../salesforceEmpty.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE41143C070A24405985EF5 /* Pods_Salesforce_AR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0B3F9033A2C5066BA5882C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A13EDF27236EF061B1E487B /* Pods-Salesforce AR.debug.xcconfig */,
+				214A400647DC8087DBE083C4 /* Pods-Salesforce AR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8AE542E46F37458CE4BF7BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47939FBB3D0778B117BC2765 /* Pods_Salesforce_AR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE65878F1F346024001FE15C = {
 			isa = PBXGroup;
 			children = (
 				EE65879A1F346024001FE15C /* Salesforce AR */,
 				EE6587991F346024001FE15C /* Products */,
+				A0B3F9033A2C5066BA5882C4 /* Pods */,
+				D8AE542E46F37458CE4BF7BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,10 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				EE65879B1F346024001FE15C /* AppDelegate.swift */,
-				EE65879D1F346024001FE15C /* ViewController.swift */,
 				EE6587BC1F3496A1001FE15C /* FeedbackBox.swift */,
-				EE6587B21F34613B001FE15C /* art.scnassets */,
 				EE6587B01F346126001FE15C /* Mascots.swift */,
+				EE65879D1F346024001FE15C /* ViewController.swift */,
+				EE6587B21F34613B001FE15C /* art.scnassets */,
+				EE839C211F358F8D00F3374D /* salesforceEmpty.png */,
 				EE6587B41F3468B7001FE15C /* salesforce.png */,
 				EE6587AD1F3460E5001FE15C /* Main.storyboard */,
 				EE6587A21F346024001FE15C /* Assets.xcassets */,
@@ -83,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE6587AA1F346024001FE15C /* Build configuration list for PBXNativeTarget "Salesforce AR" */;
 			buildPhases = (
+				F00B68391D25E523F8EBA554 /* [CP] Check Pods Manifest.lock */,
 				EE6587941F346024001FE15C /* Sources */,
 				EE6587951F346024001FE15C /* Frameworks */,
 				EE6587961F346024001FE15C /* Resources */,
+				D694CA77A4B09ACF4A74DC8A /* [CP] Embed Pods Frameworks */,
+				D375F280C9A70E3281DA3C8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE839C221F358F8D00F3374D /* salesforceEmpty.png in Resources */,
 				EE6587AF1F3460E5001FE15C /* Main.storyboard in Resources */,
 				EE6587B31F34613B001FE15C /* art.scnassets in Resources */,
 				EE6587B51F3468B7001FE15C /* salesforce.png in Resources */,
@@ -143,6 +174,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D375F280C9A70E3281DA3C8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Salesforce AR/Pods-Salesforce AR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D694CA77A4B09ACF4A74DC8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Salesforce AR/Pods-Salesforce AR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AAShimmerView/AAShimmerView.framework",
+				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AAShimmerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Salesforce AR/Pods-Salesforce AR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00B68391D25E523F8EBA554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salesforce AR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE6587941F346024001FE15C /* Sources */ = {
@@ -287,6 +374,7 @@
 		};
 		EE6587AB1F346024001FE15C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A13EDF27236EF061B1E487B /* Pods-Salesforce AR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JLTP3YWY8W;
@@ -301,6 +389,7 @@
 		};
 		EE6587AC1F346024001FE15C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214A400647DC8087DBE083C4 /* Pods-Salesforce AR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JLTP3YWY8W;

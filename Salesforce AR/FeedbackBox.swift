@@ -7,17 +7,33 @@
 //
 
 import Foundation
-import ARKit
+import UIKit
 
 class FeedbackBox : UIViewController{
-    
     func welcome() ->String{
         return " Welcome to Salesforce AR!"
     }
     func mascotSelect() ->String {
-        return "Select your favorite mascot"
+        return "Meet your favorite Salesforce Mascot!"
     }
+    
     func unsupportedMascot() ->String{
-        return "For the scope of the project, please select Codey"
+        return "Uh-oh seems like everyone has gone hiking, except Codey!"
+    }
+    
+    func UGMascotPresent() ->String{
+        return "Codey is here! \nLook around!"
+    }
+    
+    func UGdirections() ->String{
+        return "Point to a horizontal surface and tap on their name"
+    }
+    
+    func funcWhatsNext() ->String {
+        return "Coming soon!"
+    }
+    
+    func noSurface() ->String{
+        return "Surface not detected,\n please try again"
     }
 }
